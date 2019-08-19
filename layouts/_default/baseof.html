@@ -46,8 +46,10 @@
         {{ block "main" . }}{{ end }}
         <div id="drawing"></div>
       </main>
-      <!-- {{ block "footer" . }}{{ partial "site-footer.html" . }}{{ end }} -->
+      {{ block "footer" . }}{{ partial "site-footer.html" . }}{{ end }}
       </div>
     </div>
+
+    <p hidden> This website is built by Hugo with a theme based on `hugo-theme-winning`. The theme used is forked from the original `hugo-theme-winning` that is released under the MIT license and modified by Shunsuke Hori. The modified theme is available here: https://github.com/Shunsuke-Hori/hugo-theme-winning </p>
   </body>
 </html>
